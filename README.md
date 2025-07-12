@@ -10,7 +10,7 @@ A Question Answering and Summarization system that enables users to **upload the
 - ✨ Get an AI-generated summary of your pdf
 - 📄 Supports PDF uploads
 - 🔍 Embedding + Vector Store for fast information retrieval
-- 🤖 Powered by a language model (Gemini 1.5 Flash)
+- 🤖 Powered by a language model (llama3-70b-8192)
 - 💬 Interactive and easy-to-use **Streamlit UI**
 
 ---
@@ -23,8 +23,8 @@ A Question Answering and Summarization system that enables users to **upload the
   - `LangChain`
   - `HuggingFaceEmbeddings`
   - `ChromaDB` (Vector Store)
-  - `Gemini` (LLM)
-- **PDF Parsing**: `PyMuPDF (fitz)`
+  - `Groq` (LLM)
+- **PDF Parsing**: `llamaparse`
 - **Utilities**: `dotenv`, `os`, `datetime`, etc.
 
 ---
