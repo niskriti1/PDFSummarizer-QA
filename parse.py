@@ -17,6 +17,7 @@ def parse_s3_pdf_to_markdown_table(
                         api_key=os.getenv("LLAMA_API_KEY"),
                         result_type="markdown",
                         auto_mode=True,
+                        auto_mode_trigger_on_table_in_page=True,
                         auto_mode_trigger_on_image_in_page=True,
                         skip_diagonal_text=True,
                         disable_ocr=False,
